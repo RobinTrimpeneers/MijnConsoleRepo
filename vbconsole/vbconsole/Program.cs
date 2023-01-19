@@ -10,7 +10,9 @@ namespace vbconsole
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor= ConsoleColor.Red;
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Druk op een toets om de applicatie te beïndigen...");
             Console.ReadKey();
         }
     }
